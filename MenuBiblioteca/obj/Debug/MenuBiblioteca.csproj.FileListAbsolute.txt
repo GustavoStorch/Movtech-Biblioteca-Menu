@@ -78,3 +78,4 @@ C:\Users\estagiario1\Documents\Movtech\Projeto 1\Movtech-Biblioteca-Menu\MenuBib
 C:\Users\estagiario1\Documents\Movtech\Projeto 1\Movtech-Biblioteca-Menu\MenuBiblioteca\bin\Debug\ConsultaEmprestimo.exe
 C:\Users\estagiario1\Documents\Movtech\Projeto 1\Movtech-Biblioteca-Menu\MenuBiblioteca\bin\Debug\ConsultaItemAcervo.exe
 C:\Users\estagiario1\Documents\Movtech\Projeto 1\Movtech-Biblioteca-Menu\MenuBiblioteca\bin\Debug\ReservaItemAcervo.exe
+C:\Users\estagiario1\Documents\Movtech\Projeto 1\Movtech-Biblioteca-Menu\MenuBiblioteca\obj\Debug\MenuBiblioteca.FormMenuBiblioteca2.resources

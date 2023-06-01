@@ -26,7 +26,6 @@ namespace MenuBiblioteca
                 {
                     LoginDAO dao = new LoginDAO(connection);
                     FormMenuBiblioteca formMenuBiblioteca = new FormMenuBiblioteca();
-                    FormLoginBiblioteca formLoginBiblioteca = new FormLoginBiblioteca();
 
                     bool verifica = dao.VerificaLogin(new LoginModel()
                     {

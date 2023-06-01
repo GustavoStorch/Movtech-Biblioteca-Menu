@@ -83,27 +83,36 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DaoConnection.cs" />
-    <Compile Include="FormLoginBiblioteca.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormLoginBiblioteca.Designer.cs">
-      <DependentUpon>FormLoginBiblioteca.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormMenuBiblioteca.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMenuBiblioteca.Designer.cs">
       <DependentUpon>FormMenuBiblioteca.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLoginBiblioteca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoginBiblioteca.Designer.cs">
+      <DependentUpon>FormLoginBiblioteca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuBiblioteca2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuBiblioteca2.Designer.cs">
+      <DependentUpon>FormMenuBiblioteca2.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginDAO.cs" />
     <Compile Include="LoginModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormMenuBiblioteca.resx">
+      <DependentUpon>FormMenuBiblioteca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLoginBiblioteca.resx">
       <DependentUpon>FormLoginBiblioteca.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMenuBiblioteca.resx">
-      <DependentUpon>FormMenuBiblioteca.cs</DependentUpon>
+    <EmbeddedResource Include="FormMenuBiblioteca2.resx">
+      <DependentUpon>FormMenuBiblioteca2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
