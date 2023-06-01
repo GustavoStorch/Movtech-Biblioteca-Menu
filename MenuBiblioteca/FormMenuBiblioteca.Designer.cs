@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenuBiblioteca));
             this.imgMenulivro = new System.Windows.Forms.PictureBox();
             this.btnCadastroAutor = new System.Windows.Forms.Button();
             this.btnCadastroEditora = new System.Windows.Forms.Button();
@@ -46,18 +47,20 @@
             // imgMenulivro
             // 
             this.imgMenulivro.Image = global::MenuBiblioteca.Properties.Resources.menu_removebg_preview;
-            this.imgMenulivro.Location = new System.Drawing.Point(226, 26);
+            this.imgMenulivro.Location = new System.Drawing.Point(339, 40);
+            this.imgMenulivro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.imgMenulivro.Name = "imgMenulivro";
-            this.imgMenulivro.Size = new System.Drawing.Size(280, 223);
+            this.imgMenulivro.Size = new System.Drawing.Size(420, 343);
             this.imgMenulivro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgMenulivro.TabIndex = 1;
             this.imgMenulivro.TabStop = false;
             // 
             // btnCadastroAutor
             // 
-            this.btnCadastroAutor.Location = new System.Drawing.Point(9, 11);
+            this.btnCadastroAutor.Location = new System.Drawing.Point(14, 17);
+            this.btnCadastroAutor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCadastroAutor.Name = "btnCadastroAutor";
-            this.btnCadastroAutor.Size = new System.Drawing.Size(195, 23);
+            this.btnCadastroAutor.Size = new System.Drawing.Size(292, 35);
             this.btnCadastroAutor.TabIndex = 0;
             this.btnCadastroAutor.Text = "Cadastro Autor";
             this.btnCadastroAutor.UseVisualStyleBackColor = true;
@@ -65,9 +68,10 @@
             // 
             // btnCadastroEditora
             // 
-            this.btnCadastroEditora.Location = new System.Drawing.Point(9, 40);
+            this.btnCadastroEditora.Location = new System.Drawing.Point(14, 62);
+            this.btnCadastroEditora.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCadastroEditora.Name = "btnCadastroEditora";
-            this.btnCadastroEditora.Size = new System.Drawing.Size(195, 23);
+            this.btnCadastroEditora.Size = new System.Drawing.Size(292, 35);
             this.btnCadastroEditora.TabIndex = 1;
             this.btnCadastroEditora.Text = "Cadastro Editora";
             this.btnCadastroEditora.UseVisualStyleBackColor = true;
@@ -75,9 +79,10 @@
             // 
             // btnCadastroLocal
             // 
-            this.btnCadastroLocal.Location = new System.Drawing.Point(9, 69);
+            this.btnCadastroLocal.Location = new System.Drawing.Point(14, 106);
+            this.btnCadastroLocal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCadastroLocal.Name = "btnCadastroLocal";
-            this.btnCadastroLocal.Size = new System.Drawing.Size(195, 23);
+            this.btnCadastroLocal.Size = new System.Drawing.Size(292, 35);
             this.btnCadastroLocal.TabIndex = 2;
             this.btnCadastroLocal.Text = "Cadastro Local";
             this.btnCadastroLocal.UseVisualStyleBackColor = true;
@@ -85,9 +90,10 @@
             // 
             // btnCadastroSecao
             // 
-            this.btnCadastroSecao.Location = new System.Drawing.Point(11, 98);
+            this.btnCadastroSecao.Location = new System.Drawing.Point(16, 151);
+            this.btnCadastroSecao.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCadastroSecao.Name = "btnCadastroSecao";
-            this.btnCadastroSecao.Size = new System.Drawing.Size(195, 23);
+            this.btnCadastroSecao.Size = new System.Drawing.Size(292, 35);
             this.btnCadastroSecao.TabIndex = 3;
             this.btnCadastroSecao.Text = "Cadastro Seção";
             this.btnCadastroSecao.UseVisualStyleBackColor = true;
@@ -95,9 +101,10 @@
             // 
             // btnCadastroItemAcervo
             // 
-            this.btnCadastroItemAcervo.Location = new System.Drawing.Point(9, 127);
+            this.btnCadastroItemAcervo.Location = new System.Drawing.Point(14, 195);
+            this.btnCadastroItemAcervo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCadastroItemAcervo.Name = "btnCadastroItemAcervo";
-            this.btnCadastroItemAcervo.Size = new System.Drawing.Size(195, 23);
+            this.btnCadastroItemAcervo.Size = new System.Drawing.Size(292, 35);
             this.btnCadastroItemAcervo.TabIndex = 4;
             this.btnCadastroItemAcervo.Text = "Cadastro Item Acervo";
             this.btnCadastroItemAcervo.UseVisualStyleBackColor = true;
@@ -105,9 +112,10 @@
             // 
             // btnCadastroLeitor
             // 
-            this.btnCadastroLeitor.Location = new System.Drawing.Point(9, 156);
+            this.btnCadastroLeitor.Location = new System.Drawing.Point(14, 240);
+            this.btnCadastroLeitor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCadastroLeitor.Name = "btnCadastroLeitor";
-            this.btnCadastroLeitor.Size = new System.Drawing.Size(195, 23);
+            this.btnCadastroLeitor.Size = new System.Drawing.Size(292, 35);
             this.btnCadastroLeitor.TabIndex = 5;
             this.btnCadastroLeitor.Text = "Cadastro Leitor";
             this.btnCadastroLeitor.UseVisualStyleBackColor = true;
@@ -115,9 +123,10 @@
             // 
             // btnReservas
             // 
-            this.btnReservas.Location = new System.Drawing.Point(11, 185);
+            this.btnReservas.Location = new System.Drawing.Point(16, 285);
+            this.btnReservas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReservas.Name = "btnReservas";
-            this.btnReservas.Size = new System.Drawing.Size(195, 23);
+            this.btnReservas.Size = new System.Drawing.Size(292, 35);
             this.btnReservas.TabIndex = 6;
             this.btnReservas.Text = "Reserva de Itens";
             this.btnReservas.UseVisualStyleBackColor = true;
@@ -125,9 +134,10 @@
             // 
             // btnConsultaEmprestimos
             // 
-            this.btnConsultaEmprestimos.Location = new System.Drawing.Point(11, 214);
+            this.btnConsultaEmprestimos.Location = new System.Drawing.Point(16, 329);
+            this.btnConsultaEmprestimos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConsultaEmprestimos.Name = "btnConsultaEmprestimos";
-            this.btnConsultaEmprestimos.Size = new System.Drawing.Size(195, 23);
+            this.btnConsultaEmprestimos.Size = new System.Drawing.Size(292, 35);
             this.btnConsultaEmprestimos.TabIndex = 7;
             this.btnConsultaEmprestimos.Text = "Consultar Empréstimos";
             this.btnConsultaEmprestimos.UseVisualStyleBackColor = true;
@@ -135,9 +145,10 @@
             // 
             // btnConsultarItemAcervo
             // 
-            this.btnConsultarItemAcervo.Location = new System.Drawing.Point(11, 243);
+            this.btnConsultarItemAcervo.Location = new System.Drawing.Point(16, 374);
+            this.btnConsultarItemAcervo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConsultarItemAcervo.Name = "btnConsultarItemAcervo";
-            this.btnConsultarItemAcervo.Size = new System.Drawing.Size(195, 23);
+            this.btnConsultarItemAcervo.Size = new System.Drawing.Size(292, 35);
             this.btnConsultarItemAcervo.TabIndex = 8;
             this.btnConsultarItemAcervo.Text = "Consultar Itens Acervo";
             this.btnConsultarItemAcervo.UseVisualStyleBackColor = true;
@@ -154,21 +165,27 @@
             this.pnlBotoes.Controls.Add(this.btnCadastroLocal);
             this.pnlBotoes.Controls.Add(this.btnCadastroEditora);
             this.pnlBotoes.Controls.Add(this.btnCadastroAutor);
-            this.pnlBotoes.Location = new System.Drawing.Point(3, 1);
+            this.pnlBotoes.Location = new System.Drawing.Point(4, 2);
+            this.pnlBotoes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlBotoes.Name = "pnlBotoes";
-            this.pnlBotoes.Size = new System.Drawing.Size(217, 276);
+            this.pnlBotoes.Size = new System.Drawing.Size(326, 425);
             this.pnlBotoes.TabIndex = 0;
             // 
             // FormMenuBiblioteca
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 282);
+            this.ClientSize = new System.Drawing.Size(772, 432);
             this.Controls.Add(this.imgMenulivro);
             this.Controls.Add(this.pnlBotoes);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "FormMenuBiblioteca";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Biblioteca Movtech";
+            this.Load += new System.EventHandler(this.FormMenuBiblioteca_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgMenulivro)).EndInit();
             this.pnlBotoes.ResumeLayout(false);
             this.ResumeLayout(false);

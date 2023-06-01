@@ -70,5 +70,10 @@ namespace MenuBiblioteca
             ConsultaItemAcervo.FormConsultaItem formConsultaItem = new ConsultaItemAcervo.FormConsultaItem();
             formConsultaItem.ShowDialog();
         }
+
+        private void FormMenuBiblioteca_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

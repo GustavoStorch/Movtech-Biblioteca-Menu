@@ -33,32 +33,41 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CadastroAutor">
-      <HintPath>..\..\..\..\Documents\Movtech\Projeto 1\Movtech-Biblioteca-Autor\CadastroAutor\bin\Debug\CadastroAutor.exe</HintPath>
+    <Reference Include="CadastroAutor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Biblioteca-Autor\CadastroAutor\bin\Debug\CadastroAutor.exe</HintPath>
     </Reference>
-    <Reference Include="CadastroEditora">
-      <HintPath>..\..\..\..\Desktop\Projeto 1\Movtech-Biblioteca-Editora\CadastroEditora\bin\Debug\CadastroEditora.exe</HintPath>
+    <Reference Include="CadastroEditora, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Biblioteca-Editora\CadastroEditora\bin\Debug\CadastroEditora.exe</HintPath>
     </Reference>
-    <Reference Include="CadastroItemDoAcervo">
-      <HintPath>..\..\..\..\Desktop\Projeto 1\Movtech-Biblioteca-ItemAcervo\CadastroItemDoAcervo\bin\Debug\CadastroItemDoAcervo.exe</HintPath>
+    <Reference Include="CadastroItemDoAcervo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Biblioteca-ItemAcervo\CadastroItemDoAcervo\bin\Debug\CadastroItemDoAcervo.exe</HintPath>
     </Reference>
-    <Reference Include="CadastroLeitor">
-      <HintPath>..\..\..\..\Desktop\Projeto 1\Movtech-Biblioteca-Leitor\CadastroLeitor\bin\Debug\CadastroLeitor.exe</HintPath>
+    <Reference Include="CadastroLeitor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Biblioteca-Leitor\CadastroLeitor\bin\Debug\CadastroLeitor.exe</HintPath>
     </Reference>
-    <Reference Include="CadastroLocal">
-      <HintPath>..\..\..\..\Desktop\Projeto 1\Movtech-Biblioteca-Local\CadastroLocal\bin\Debug\CadastroLocal.exe</HintPath>
+    <Reference Include="CadastroLocal, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Biblioteca-Local\CadastroLocal\bin\Debug\CadastroLocal.exe</HintPath>
     </Reference>
-    <Reference Include="CadastroSecao">
-      <HintPath>..\..\..\..\Desktop\Projeto 1\Movtech-Biblioteca-Secao\CadastroSecao\bin\Debug\CadastroSecao.exe</HintPath>
+    <Reference Include="CadastroSecao, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Biblioteca-Secao\CadastroSecao\bin\Debug\CadastroSecao.exe</HintPath>
     </Reference>
-    <Reference Include="ConsultaEmprestimo">
-      <HintPath>..\..\..\..\Desktop\Projeto 1\Movtech-Biblioteca-ConsultaEmprestimo\ConsultaEmprestimo\bin\Debug\ConsultaEmprestimo.exe</HintPath>
+    <Reference Include="ConsultaEmprestimo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Biblioteca-ConsultaEmprestimo\ConsultaEmprestimo\bin\Debug\ConsultaEmprestimo.exe</HintPath>
     </Reference>
-    <Reference Include="ConsultaItemAcervo">
-      <HintPath>..\..\..\..\Desktop\Projeto 1\Movtech-Biblioteca-ConsultaItemAcervo\ConsultaItemAcervo\bin\Debug\ConsultaItemAcervo.exe</HintPath>
+    <Reference Include="ConsultaItemAcervo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Biblioteca-ConsultaItemAcervo\ConsultaItemAcervo\bin\Debug\ConsultaItemAcervo.exe</HintPath>
     </Reference>
-    <Reference Include="ReservaItemAcervo">
-      <HintPath>..\..\..\..\Desktop\Projeto 1\Movtech-Biblioteca-Reserva\ReservaItemAcervo\bin\Debug\ReservaItemAcervo.exe</HintPath>
+    <Reference Include="ReservaItemAcervo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Biblioteca-ReservaItemAcervo\ReservaItemAcervo\bin\Debug\ReservaItemAcervo.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
