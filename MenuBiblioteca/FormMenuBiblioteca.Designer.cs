@@ -151,7 +151,7 @@
             this.imgMenuBib.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgMenuBib.Image = global::MenuBiblioteca.Properties.Resources.menu_removebg_preview;
+            this.imgMenuBib.Image = global::MenuBiblioteca.Properties.Resources.movtechBib;
             this.imgMenuBib.Location = new System.Drawing.Point(45, 56);
             this.imgMenuBib.Name = "imgMenuBib";
             this.imgMenuBib.Size = new System.Drawing.Size(607, 327);

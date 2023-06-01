@@ -33,8 +33,8 @@
             this.txtSenhaUsuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnEntrar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,6 +75,18 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Senha:";
             // 
+            // btnEntrar
+            // 
+            this.btnEntrar.ForeColor = System.Drawing.Color.Black;
+            this.btnEntrar.Location = new System.Drawing.Point(316, 166);
+            this.btnEntrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(112, 35);
+            this.btnEntrar.TabIndex = 5;
+            this.btnEntrar.Text = "Entrar";
+            this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MenuBiblioteca.Properties.Resources.login_removebg_preview__1_;
@@ -85,17 +97,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnEntrar
-            // 
-            this.btnEntrar.Location = new System.Drawing.Point(316, 166);
-            this.btnEntrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(112, 35);
-            this.btnEntrar.TabIndex = 5;
-            this.btnEntrar.Text = "Entrar";
-            this.btnEntrar.UseVisualStyleBackColor = true;
-            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // FormLoginBiblioteca
             // 
@@ -109,13 +110,14 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSenhaUsuario);
             this.Controls.Add(this.txtNomeUsuário);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "FormLoginBiblioteca";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login Biblioteca";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.FormLoginBiblioteca_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

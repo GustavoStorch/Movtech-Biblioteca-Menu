@@ -158,5 +158,8 @@
   <ItemGroup>
     <None Include="Resources\menu-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movtechBib.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
